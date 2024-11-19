@@ -14,6 +14,24 @@ struct ContentView00: View {
                 .padding()
                 .font(.title)
             
+            HStack {
+                Button("Presiona aquí") {
+                    print("Has interactuado con el botón 1")
+                }
+                .padding()
+                .background(.blue)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+                
+                Button("Presiona aquí") {
+                    print("Has interactuado con el botón 1")
+                }
+                .padding()
+                .background(.blue)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+            }
+            
             Button("Presiona aquí") {
                 print("Has interactuado con el botón 1")
             }
