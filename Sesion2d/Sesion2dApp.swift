@@ -11,7 +11,7 @@ import SwiftUI
 struct Sesion2dApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentState00View()
         }
     }
 }
